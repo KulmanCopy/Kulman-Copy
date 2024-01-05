@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pricing - Business Coaching Services</title>
+    <style>
+        .pricing {
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+            max-width: 1000px;
+            padding: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .pricing h1 {
+            color: #0056b3;
+        }
+
+        .pricing p {
+            line-height: 1.6;
+        }
+
+        .packages {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .package {
+            flex-basis: calc(33% - 20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f8f8f8;
+        }
+
+        .package h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .package p {
+            text-align: left;
+            margin: 10px 0;
+        }
+
+        .package-price {
+            font-size: 24px;
+            color: #28a745;
+            margin: 20px 0;
+        }
+
+        .package button {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .package button:hover {
+            background-color: #004494;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing">
+        <h1>Our Pricing</h1>
+        <p>Choose the best coaching package that fits your needs. Our plans are designed to offer flexibility and value to support your business goals.</p>
+
+        <div class="packages">
+            <!-- Basic Package -->
+            <div class="package">
+                <h2>Basic Package</h2>
+                <p>For startups and small businesses</p>
+                <ul>
+                    <li>Weekly coaching sessions</li>
+                    <li>Email support</li>
+                    <li>Access to resources</li>
+                </ul>
+                <p class="package-price">$199/month</p>
+                <button>Choose Basic</button>
+            </div>
+
+            <!-- Premium Package -->
+            <div class="package">
+                <h2>Premium Package</h2>
+                <p>For established businesses</p>
+                <ul>
+                    <li>Bi-weekly in-depth sessions</li>
+                    <li>24/7 priority support</li>
+                    <li>Customized growth strategies</li>
+                    <li>Exclusive resources</li>
+                </ul>
+                <p class="package-price">$499/month</p>
+                <button>Choose Premium</button>
+            </div>
+
+            <!-- Custom Package -->
+            <div class="package">
+                <h2>Custom Package</h2>
+                <p>Tailored to your specific needs</p>
+                <ul>
+                    <li>Personalized coaching plan</li>
+                    <li>Dedicated support team</li>
+                    <li>Regular performance reviews</li>
+                </ul>
+                <p class="package-price">Contact for pricing</p>
+                <button>Get Custom Plan</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
